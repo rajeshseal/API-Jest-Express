@@ -1,0 +1,26 @@
+{
+  "name": "api-test-jest-supertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshseal/API-Test-Jest-Supertest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeshseal/API-Test-Jest-Supertest/issues"
+  },
+  "homepage": "https://github.com/rajeshseal/API-Test-Jest-Supertest#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "jest": "^24.9.0",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0",
+    "supertest": "^4.0.2"
+  }
+}
