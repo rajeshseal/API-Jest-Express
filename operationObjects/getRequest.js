@@ -2,19 +2,16 @@ const request = require('supertest');
 const lodash = require('lodash');
 const fetch  = require('node-fetch')
 
-// const getRequest =   function( site, uri ){
-//     const url = site + uri
-//     const stnNames =  fetch(url)
-//     .then(res => res.json())
-//    return(json)
-//     }
-
-
-    const getRequest = async function getRequest( site, uri ) {
+    function getRequest( site, uri ) {
         const url = site + uri
-        const response = await fetch(url);
-        console.log(response.json)
-        return response.json()
+         return fetch(url)
+            .then((response) => {
+                // console.log(response.json)
+                return response.json()
+            }).then((data) => {
+                //console.log(data);
+                return data;
+            })
     }
     
 
