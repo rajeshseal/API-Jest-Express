@@ -19,7 +19,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "jest": "^24.9.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "node-fetch": "^2.6.0",
     "supertest": "^4.0.2"
   }
